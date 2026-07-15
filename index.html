@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hollins Lawn Care & More - Professional Landscaping Services</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <h1>🌱 Hollins Lawn Care & More</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Welcome to Hollins Lawn Care & More</h2>
+            <p>Professional landscaping and lawn care services for your home</p>
+            <button class="cta-button" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">Get a Free Quote</button>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <h3>🔪 Lawn Mowing</h3>
+                <p>Professional grass cutting and lawn maintenance</p>
+            </div>
+            <div class="service-card">
+                <h3>🌿 Landscaping</h3>
+                <p>Design and installation of beautiful gardens</p>
+            </div>
+            <div class="service-card">
+                <h3>🍃 Yard Cleanup</h3>
+                <p>Complete yard cleanup and seasonal maintenance</p>
+            </div>
+            <div class="service-card">
+                <h3>🌳 Tree Trimming</h3>
+                <p>Expert tree trimming and pruning services</p>
+            </div>
+            <div class="service-card">
+                <h3>🪴 Garden Design</h3>
+                <p>Custom garden design and planting services</p>
+            </div>
+            <div class="service-card">
+                <h3>🌾 Seasonal Services</h3>
+                <p>Spring cleanup and fall leaf removal</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>Hollins Lawn Care & More is dedicated to providing top-quality landscaping and lawn care services to our community. We bring years of experience and passion to every project.</p>
+        <div class="about-features">
+            <div class="feature">
+                <h4>✓ Professional Team</h4>
+                <p>Experienced professionals</p>
+            </div>
+            <div class="feature">
+                <h4>✓ Quality Service</h4>
+                <p>Attention to detail</p>
+            </div>
+            <div class="feature">
+                <h4>✓ Affordable Pricing</h4>
+                <p>Competitive rates</p>
+            </div>
+            <div class="feature">
+                <h4>✓ Reliable</h4>
+                <p>Your satisfaction guaranteed</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-content">
+            <div class="contact-info">
+                <h3>Get In Touch</h3>
+                <p><strong>Phone:</strong> (555) 123-4567</p>
+                <p><strong>Email:</strong> info@hollinslawncare.com</p>
+                <p><strong>Hours:</strong> Monday - Saturday, 8AM - 6PM</p>
+            </div>
+            <form class="contact-form" onsubmit="handleSubmit(event)">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <input type="tel" placeholder="Your Phone" required>
+                <textarea placeholder="Tell us about your project..." rows="5" required></textarea>
+                <button type="submit" class="submit-button">Send Inquiry</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 Hollins Lawn Care & More. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
